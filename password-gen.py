@@ -7852,3 +7852,10 @@ if __name__ == "__main__":
     }
     
     print(generatePassword(dictionary, 8, 2))
+
+    # To Do
+    # - automatically get dictionary from diceware website
+    # - do that thing where you have to move the mouse around when generating the password in order to generate entropy
+    # - improve the 'extra' part of password gneration
+    # - comment to code to explain why I did each part
+    # - improve some of the names???
