@@ -14,7 +14,7 @@ def randomInt(start : int = 0, end : int = 255, iterations : int = 1000) -> int:
     if start < 0 or end > 255: # byte must be between 0x00 and 0xFF (255)
         raise Exception("0 <= start, end < 256")
 
-    byte = [] # os.urandom returns a list of bytes even when it is only one element in lize
+    byte = [] # os.urandom returns a list of bytes even when it is only one element in size
     for _ in range(iterations):
         byte = urandom(1) # os.urandom() is cryptographically secure
 
